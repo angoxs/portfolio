@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       <div className={styles.frame02}>
         <div className={styles.box}>
-          <Fade left>
+          <Fade up>
             <img
               className={styles.cool}
               src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1651&q=80"
