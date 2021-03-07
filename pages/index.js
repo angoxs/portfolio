@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Fade from "react-reveal/Fade";
+import Navigation from "../components/Navigation";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         @import
         url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
       </style>
+      <Navigation />
       <div className={styles.grid}>
         <div className={styles.frame}>
           <Fade up>
