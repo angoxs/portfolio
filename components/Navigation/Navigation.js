@@ -17,7 +17,7 @@ const Image = styled("img", {
   width: 60,
   objectfit: "cover",
   borderRadius: "50%",
-  border: "5px solid #EBEBEB",
+  border: "5px solid #fff",
 });
 
 const Name = styled("p", {
