@@ -29,7 +29,7 @@ const Name = styled("p", {
 export default function Navigation() {
   return (
     <Frame>
-      <Fade right>
+      <Fade>
         <Avatar>
           <Image src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80" />
           <Name>Ángel Vázquez</Name>
