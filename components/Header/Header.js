@@ -41,7 +41,7 @@ const Description = styled("p", {
   marginTop: 20,
   fontSize: 20,
   fontWeight: 300,
-  color: "#adb4c2",
+  color: "#989aa3",
 
   bp1: {
     fontSize: 18,
@@ -54,7 +54,7 @@ const Button = styled("button", {
   fontWeight: 600,
   letterSpacing: 1,
   padding: "15px 30px",
-  background: "#2b374c",
+  background: "#191d20",
   borderRadius: 8,
   border: "none",
   color: "white",
@@ -63,7 +63,7 @@ const Button = styled("button", {
 
   ":hover": {
     background: "#fafafa",
-    color: "black",
+    color: "#191d20",
   },
 });
 
@@ -87,9 +87,7 @@ export default function Header() {
       <Fade>
         <Row>
           <div>
-            <Name>
-              <span>Design</span> & Code
-            </Name>
+            <Name>Design & Code</Name>
             <Description>
               I’m a front-end designer & developer based in Florida.
             </Description>
