@@ -73,7 +73,7 @@ export default function Header() {
         <Grid>
           <div>
             <Name>
-              Diseño & <span>Codigo</span>
+              <span>Design</span> & Code
             </Name>
             <Description>
               I’m a front-end designer & developer based in Florida.
