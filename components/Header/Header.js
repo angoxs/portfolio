@@ -97,11 +97,11 @@ export default function Header() {
           <Button>Hire Me &rarr;</Button>
         </Row>
         <Grid>
-          <Collection logo="/git-hub.svg" />
-          <Collection logo="/figma02.svg" />
+          <Collection logo="/github02.svg" />
+          <Collection logo="/figma01.svg" />
           <Collection logo="/apple02.svg" />
-          <Collection logo="/spotify.svg" />
-          <Collection logo="/twitter.svg" />
+          <Collection logo="/spotify02.svg" />
+          <Collection logo="/twitter02.svg" />
           <Collection logo="/framer02.svg" />
         </Grid>
       </Fade>
