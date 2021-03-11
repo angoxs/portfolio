@@ -24,6 +24,7 @@ const Name = styled("p", {
   marginLeft: 12,
   fontSize: 16,
   fontWeight: 600,
+  color: "#2b374c",
 });
 
 export default function Navigation() {

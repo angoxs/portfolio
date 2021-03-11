@@ -26,6 +26,10 @@ const Name = styled("h1", {
   fontSize: 74,
   fontWeight: 700,
 
+  span: {
+    color: "#2fbdff",
+  },
+
   bp1: {
     fontSize: 64,
   },
@@ -36,7 +40,7 @@ const Description = styled("p", {
   marginTop: 20,
   fontSize: 20,
   fontWeight: 300,
-  color: "rgb(0, 0, 0, 0.4)",
+  color: "#adb4c2",
 
   bp1: {
     fontSize: 18,
@@ -49,7 +53,8 @@ const Button = styled("button", {
   fontWeight: 600,
   letterSpacing: 1,
   padding: "15px 30px",
-  background: "#0c0c1b",
+  background: "#2b374c",
+  borderRadius: 8,
   border: "none",
   color: "white",
   cursor: "pointer",
@@ -67,12 +72,14 @@ export default function Header() {
       <Fade>
         <Grid>
           <div>
-            <Name>Diseño & Codigo</Name>
+            <Name>
+              Diseño & <span>Codigo</span>
+            </Name>
             <Description>
               I’m a front-end designer & developer based in Florida.
             </Description>
           </div>
-          <Button>View My Work</Button>
+          <Button>Hire Me &rarr;</Button>
         </Grid>
       </Fade>
     </Frame>
