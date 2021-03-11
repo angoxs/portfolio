@@ -77,6 +77,7 @@ const Grid = styled("div", {
 
   bp1: {
     gridTemplateColumns: "repeat(3, auto)",
+    gridGap: 10,
   },
 });
 
@@ -97,11 +98,11 @@ export default function Header() {
         </Row>
         <Grid>
           <Collection logo="/git-hub.svg" />
-          <Collection logo="/figma03.svg" />
-          <Collection logo="/git-hub.svg" />
-          <Collection logo="/git-hub.svg" />
-          <Collection logo="/git-hub.svg" />
-          <Collection logo="/git-hub.svg" />
+          <Collection logo="/figma02.svg" />
+          <Collection logo="/apple02.svg" />
+          <Collection logo="/spotify.svg" />
+          <Collection logo="/twitter.svg" />
+          <Collection logo="/framer02.svg" />
         </Grid>
       </Fade>
     </Frame>
