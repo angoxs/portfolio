@@ -1,12 +1,13 @@
 import { styled } from "../../stitches.config";
 import Fade from "react-reveal/Fade";
+import Collection from "./Collection";
 
 const Frame = styled("div", {
   display: "flex",
   flexDirection: "column",
 });
 
-const Grid = styled("div", {
+const Row = styled("div", {
   display: "flex",
   flexDirection: "row",
   justifyContent: "space-between",
@@ -66,11 +67,24 @@ const Button = styled("button", {
   },
 });
 
+const Grid = styled("div", {
+  display: "grid",
+  gridTemplateColumns: "repeat(6, auto)",
+  alignItems: "center",
+  justifyContent: "stretch",
+  width: "100%",
+  gridGap: 20,
+
+  bp1: {
+    gridTemplateColumns: "repeat(3, auto)",
+  },
+});
+
 export default function Header() {
   return (
     <Frame>
       <Fade>
-        <Grid>
+        <Row>
           <div>
             <Name>
               <span>Design</span> & Code
@@ -80,6 +94,14 @@ export default function Header() {
             </Description>
           </div>
           <Button>Hire Me &rarr;</Button>
+        </Row>
+        <Grid>
+          <Collection logo="/git-hub.svg" />
+          <Collection logo="/figma03.svg" />
+          <Collection logo="/git-hub.svg" />
+          <Collection logo="/git-hub.svg" />
+          <Collection logo="/git-hub.svg" />
+          <Collection logo="/git-hub.svg" />
         </Grid>
       </Fade>
     </Frame>
