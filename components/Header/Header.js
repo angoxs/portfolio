@@ -29,7 +29,7 @@ const Row = styled("div", {
 
 const Name = styled("h1", {
   margin: 0,
-  fontSize: 64,
+  fontSize: 60,
   fontWeight: 600,
   maxWidth: 600,
 
@@ -93,7 +93,7 @@ export default function Header() {
       <Fade>
         <Row>
           <div>
-            <Name>Digital designer based in Ocala. </Name>
+            <Name>React developer based in Ocala. </Name>
             <Description>
               I’m a front-end designer & developer based in Florida.
             </Description>

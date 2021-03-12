@@ -37,7 +37,15 @@ const Image = styled("img", {
   width: "100%",
   objectfit: "cover",
 
-  ":nth-child(2), :nth-child(4)": {
+  ":nth-child(2)": {
+    marginTop: 160,
+
+    bp1: {
+      marginTop: 0,
+    },
+  },
+
+  ":nth-child(4)": {
     marginTop: 160,
 
     bp1: {
