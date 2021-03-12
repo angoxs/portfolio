@@ -1,7 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Fade from "react-reveal/Fade";
-import { Navigation, Header } from "../components";
+import { Navigation, Header, Projects } from "../components";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       </style>
       <Navigation />
       <Header />
+      <Projects />
     </div>
   );
 }

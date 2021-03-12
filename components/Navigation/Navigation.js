@@ -4,6 +4,11 @@ import Fade from "react-reveal/Fade";
 const Frame = styled("div", {
   display: "flex",
   alignItems: "flex-start",
+  padding: "4rem 3rem",
+
+  bp1: {
+    padding: "0.5rem",
+  },
 });
 
 const Avatar = styled("div", {

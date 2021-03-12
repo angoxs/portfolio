@@ -5,6 +5,11 @@ import Collection from "./Collection";
 const Frame = styled("div", {
   display: "flex",
   flexDirection: "column",
+  padding: "3rem 3rem",
+
+  bp1: {
+    padding: "1.5rem 0.5rem",
+  },
 });
 
 const Row = styled("div", {
@@ -24,15 +29,16 @@ const Row = styled("div", {
 
 const Name = styled("h1", {
   margin: 0,
-  fontSize: 74,
-  fontWeight: 700,
+  fontSize: 64,
+  fontWeight: 600,
+  maxWidth: 600,
 
   span: {
     color: "#2fbdff",
   },
 
   bp1: {
-    fontSize: 64,
+    fontSize: 54,
   },
 });
 
@@ -87,7 +93,7 @@ export default function Header() {
       <Fade>
         <Row>
           <div>
-            <Name>Design & Code</Name>
+            <Name>Digital designer based in Ocala. </Name>
             <Description>
               I’m a front-end designer & developer based in Florida.
             </Description>
