@@ -18,11 +18,10 @@ const Avatar = styled("div", {
 });
 
 const Image = styled("img", {
-  height: 60,
-  width: 60,
+  height: 44,
+  width: 44,
   objectfit: "cover",
   borderRadius: "50%",
-  border: "5px solid #fff",
 });
 
 const Name = styled("p", {

@@ -119,9 +119,9 @@ export default function Projects() {
             </Container>
           </Example>
           <Example>
-            <Image src="/project03.webp" />
+            <Image src="/project04.webp" />
             <Container>
-              <Name>Gymondo</Name>
+              <Name>CaixaBank</Name>
               <Description>
                 A pseudo-Latin text used in web design, layout, and printing in
                 place of things to emphasise layouts for previewing layouts and
