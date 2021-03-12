@@ -9,7 +9,7 @@ const Frame = styled("div", {
   padding: "4rem 8rem",
 
   bp1: {
-    padding: "1.5rem 0.5rem",
+    padding: "90px 0.5rem",
   },
 });
 
@@ -81,11 +81,11 @@ const Example = styled("div", {
   gridTemplateColumns: "1fr 1fr",
   gridGap: 40,
   marginTop: 60,
-  background: "#d1e0e6",
+  background: "#fff",
 
   bp1: {
     gridTemplateColumns: "1fr",
-    padding: 30,
+    gridGap: 30,
   },
 });
 
@@ -94,6 +94,10 @@ const Container = styled("div", {
   flexDirection: "column",
   alignItems: "flex-start",
   justifyContent: "center",
+
+  bp1: {
+    padding: 30,
+  },
 });
 
 export default function Projects() {
