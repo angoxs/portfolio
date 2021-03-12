@@ -26,7 +26,7 @@ const Image = styled("img", {
   objectfit: "cover",
 
   bp1: {
-    height: 280,
+    height: 220,
   },
 });
 
@@ -85,6 +85,7 @@ const Example = styled("div", {
 
   bp1: {
     gridTemplateColumns: "1fr",
+    padding: 30,
   },
 });
 
