@@ -37,7 +37,7 @@ const Image = styled("img", {
   width: "100%",
   objectfit: "cover",
 
-  ":nth-child(2)": {
+  ":nth-child(2), :nth-child(4)": {
     marginTop: 160,
 
     bp1: {
@@ -59,15 +59,17 @@ const Name = styled("p", {
 export default function Projects() {
   return (
     <Frame>
-      <Fade up>
-        <Column>
-          <Name>Last Projects</Name>
+      <Column>
+        <Name>Last Projects</Name>
+        <Fade up>
           <Grid>
             <Image src="/project03.webp" />
             <Image src="/project04.webp" />
+            <Image src="/project03.webp" />
+            <Image src="/project04.webp" />
           </Grid>
-        </Column>
-      </Fade>
+        </Fade>
+      </Column>
     </Frame>
   );
 }
