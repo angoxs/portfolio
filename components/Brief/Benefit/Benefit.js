@@ -30,6 +30,8 @@ const Image = styled("img", {
 const Name = styled("p", {
   margin: 0,
   marginBottom: 6,
+  fontSize: 16,
+  fontWeight: 400,
 });
 
 export default function Benefit(props) {
