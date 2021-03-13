@@ -31,7 +31,7 @@ const Name = styled("h1", {
   margin: 0,
   fontSize: 60,
   fontWeight: 600,
-  maxWidth: 600,
+  maxWidth: 700,
 
   span: {
     color: "#2fbdff",
@@ -45,9 +45,10 @@ const Name = styled("h1", {
 const Description = styled("p", {
   margin: 0,
   marginTop: 20,
-  fontSize: 20,
+  fontSize: 18,
   fontWeight: 300,
   color: "#989aa3",
+  maxWidth: 700,
 
   bp1: {
     fontSize: 18,
@@ -59,18 +60,24 @@ const Button = styled("button", {
   fontSize: 16,
   fontWeight: 600,
   letterSpacing: 1,
-  padding: "15px 30px",
-  background: "white",
+  padding: "15px 50px",
+  background: "#fff",
   borderRadius: 30,
-  border: "none",
+  border: "1px solid transparent",
   color: "black",
   cursor: "pointer",
   transition: "all 0.5s linear",
   boxShadow: "rgb(135 140 189 / 13%) 52px 52px 84px 0px",
 
   ":hover": {
-    background: "#fafafa",
+    background: "#eeeff1",
+    border: "1px solid white",
     color: "#191d20",
+    boxShadow: "rgb(135 140 189 / 13%) 52px 52px 84px 0px",
+  },
+
+  bp1: {
+    width: "100%",
   },
 });
 
@@ -98,7 +105,9 @@ export default function Header() {
               I'm Sleak — a stylish personal site template for React & Stitches.
             </Name>
             <Description>
-              I’m a front-end designer & developer based in Florida.
+              Use this space to introduce yourself, and maybe share a few links
+              to your work, or your Twitter profile. Duplicate this template for
+              free from the Super Market. See instructions here.{" "}
             </Description>
           </div>
           <Button>Hire Me &rarr;</Button>
