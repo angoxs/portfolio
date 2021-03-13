@@ -41,7 +41,7 @@ const Name = styled("h1", {
   },
 
   bp1: {
-    fontSize: 38,
+    fontSize: 30,
   },
 });
 
