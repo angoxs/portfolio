@@ -18,7 +18,6 @@ const Row = styled("div", {
   justifyContent: "space-between",
   alignItems: "center",
   width: "100%",
-
   marginBottom: 40,
 
   bp1: {
