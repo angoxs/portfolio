@@ -73,17 +73,24 @@ const Button = styled("button", {
   fontSize: 16,
   fontWeight: 600,
   letterSpacing: 1,
-  padding: "15px 30px",
-  background: "#191d20",
-  borderRadius: 8,
-  border: "none",
-  color: "white",
+  padding: "15px 50px",
+  background: "#fff",
+  borderRadius: 30,
+  border: "1px solid transparent",
+  color: "black",
   cursor: "pointer",
   transition: "all 0.5s linear",
+  boxShadow: "rgb(135 140 189 / 13%) 52px 52px 84px 0px",
 
   ":hover": {
-    background: "#fafafa",
+    background: "#eeeff1",
+    border: "1px solid white",
     color: "#191d20",
+    boxShadow: "rgb(135 140 189 / 13%) 52px 52px 84px 0px",
+  },
+
+  bp1: {
+    width: "100%",
   },
 });
 
