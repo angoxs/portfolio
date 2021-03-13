@@ -134,7 +134,7 @@ export default function Projects() {
                 place of things to emphasise layouts for previewing layouts and
                 visual mockups.{" "}
               </Description>
-              <Button>See More &rarr;</Button>
+              <Button>See More</Button>
             </Container>
           </Example>
         </Fade>

@@ -120,7 +120,7 @@ export default function Brief() {
               place of things to emphasise layouts for previewing layouts and
               visual mockups.{" "}
             </Description>
-            <Button>See my services & approach</Button>
+            <Button>See my services</Button>
           </div>
           <div>
             <Title>Here's what I can help you with:</Title>
