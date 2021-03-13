@@ -1,12 +1,13 @@
 import { styled } from "../../stitches.config";
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 const Frame = styled("div", {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
   justifyContent: "center",
-  padding: "4rem 8rem",
+  padding: "120px",
 
   bp1: {
     padding: "90px 0.5rem",
@@ -113,7 +114,7 @@ export default function Projects() {
     <Frame>
       <Column>
         <Title>Last Projects</Title>
-        <Fade up>
+        <Zoom>
           <Example>
             <Image src="/project03.webp" />
             <Container>
@@ -138,7 +139,7 @@ export default function Projects() {
               <Button>See More</Button>
             </Container>
           </Example>
-        </Fade>
+        </Zoom>
       </Column>
     </Frame>
   );
