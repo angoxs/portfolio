@@ -5,7 +5,7 @@ import Collection from "./Collection";
 const Frame = styled("div", {
   display: "flex",
   flexDirection: "column",
-  padding: "3rem 3rem",
+  padding: "120px 90px",
 
   bp1: {
     padding: "20px",
@@ -17,11 +17,9 @@ const Row = styled("div", {
   flexDirection: "row",
   justifyContent: "space-between",
   alignItems: "center",
-  padding: "4rem 2rem",
   width: "100%",
 
   bp1: {
-    padding: "4rem 0.2rem",
     flexDirection: "column",
     alignItems: "flex-start",
   },

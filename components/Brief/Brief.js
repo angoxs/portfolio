@@ -5,7 +5,7 @@ import Benefit from "./Benefit";
 const Frame = styled("div", {
   display: "flex",
   flexDirection: "column",
-  padding: "3rem 3rem",
+  padding: "120px 90px",
 
   bp1: {
     padding: "90px 20px",
@@ -18,12 +18,10 @@ const Row = styled("div", {
   justifyContent: "space-between",
   gridGap: 40,
   alignItems: "center",
-  padding: "4rem 2rem",
   width: "100%",
 
   bp1: {
     gridTemplateColumns: "1fr",
-    padding: "90px 0",
   },
 });
 
