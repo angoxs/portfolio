@@ -1,6 +1,7 @@
 import { styled } from "../../stitches.config";
 import Fade from "react-reveal/Fade";
 import Client from "./Client";
+import Example from "../Example";
 
 const Frame = styled("div", {
   display: "flex",
@@ -44,8 +45,8 @@ const Name = styled("h1", {
 
 const Description = styled("p", {
   margin: 0,
-  marginTop: 20,
-  marginBottom: 40,
+  marginTop: 30,
+  marginBottom: 30,
   fontSize: 18,
   fontWeight: 300,
   color: "#989aa3",
@@ -130,7 +131,7 @@ export default function Clients() {
             <Button>Let's work together</Button>
           </div>
           <div>
-            <Title>Another asset</Title>
+            <Example />
           </div>
         </Row>
       </Fade>

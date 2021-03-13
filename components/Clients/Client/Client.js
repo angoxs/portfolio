@@ -5,7 +5,7 @@ const Frame = styled("div", {
   padding: 20,
   display: "flex",
   flexDirection: "column",
-  alignItems: "flex-start",
+  alignItems: "center",
   justifyContent: "center",
   borderRadius: 10,
   boxShadow: "rgb(135 140 189 / 13%) 52px 52px 84px 0px",
