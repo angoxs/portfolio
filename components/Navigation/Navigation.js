@@ -7,7 +7,7 @@ const Frame = styled("div", {
   padding: "4rem 3rem",
 
   bp1: {
-    padding: "0.5rem",
+    padding: "20px",
   },
 });
 
