@@ -56,6 +56,19 @@ const Description = styled("p", {
   },
 });
 
+const Title = styled("p", {
+  margin: 0,
+  marginTop: 20,
+  marginBottom: 40,
+  fontSize: 20,
+  fontWeight: 500,
+
+  bp1: {
+    fontSize: 18,
+    marginBottom: 40,
+  },
+});
+
 const Button = styled("button", {
   fontSize: 16,
   fontWeight: 600,
@@ -103,7 +116,7 @@ export default function Brief() {
             <Button>See my services & approach</Button>
           </div>
           <div>
-            <Description>Here's what I can help you with:</Description>
+            <Title>Here's what I can help you with:</Title>
             <Grid>
               <Benefit
                 name01="User Interface"

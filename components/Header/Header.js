@@ -60,12 +60,13 @@ const Button = styled("button", {
   fontWeight: 600,
   letterSpacing: 1,
   padding: "15px 30px",
-  background: "#191d20",
-  borderRadius: 8,
+  background: "white",
+  borderRadius: 30,
   border: "none",
-  color: "white",
+  color: "black",
   cursor: "pointer",
   transition: "all 0.5s linear",
+  boxShadow: "rgb(135 140 189 / 13%) 52px 52px 84px 0px",
 
   ":hover": {
     background: "#fafafa",
@@ -93,7 +94,9 @@ export default function Header() {
       <Fade>
         <Row>
           <div>
-            <Name>React developer based in Ocala. </Name>
+            <Name>
+              I'm Sleak — a stylish personal site template for React & Stitches.
+            </Name>
             <Description>
               I’m a front-end designer & developer based in Florida.
             </Description>
