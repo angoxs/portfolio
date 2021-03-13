@@ -126,7 +126,7 @@ export default function Brief() {
               <Benefit
                 name01="Creative & Art Direction"
                 name02="Design System"
-                name03=""
+                name03="3D Assets"
                 border="#325677"
               />
             </Grid>
