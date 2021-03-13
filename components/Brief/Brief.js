@@ -109,25 +109,25 @@ export default function Brief() {
                 name01="User Interface"
                 name02="User Experience"
                 name03="User flow"
-                logo="apple02.svg"
+                border="#ffd53f"
               />
               <Benefit
                 name01="User Research"
                 name02="Usability Testing"
                 name03="Wireframe"
-                logo="apple02.svg"
+                border="#7ae5e5"
               />
               <Benefit
                 name01="Prototype"
                 name02="Icon Design"
                 name03="Interface Animation"
-                logo="apple02.svg"
+                border="#4788e9"
               />
               <Benefit
                 name01="Creative & Art Direction"
                 name02="Design System"
                 name03=""
-                logo="apple02.svg"
+                border="#325677"
               />
             </Grid>
           </div>

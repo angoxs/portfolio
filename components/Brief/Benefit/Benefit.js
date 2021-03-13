@@ -34,11 +34,18 @@ const Name = styled("p", {
   fontWeight: 400,
 });
 
+const Circle = styled("div", {
+  width: 24,
+  height: 24,
+  borderRadius: "50%",
+  marginBottom: 20,
+});
+
 export default function Benefit(props) {
   return (
     <Fade up>
       <Frame>
-        <Image src={props.logo} />
+        <Circle style={{ border: `4px solid ${props.border}` }} />
         <Name>{props.name01}</Name>
         <Name>{props.name02}</Name>
         <Name>{props.name03}</Name>
