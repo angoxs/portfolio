@@ -93,7 +93,7 @@ export default function Header() {
       <Fade>
         <Row>
           <div>
-            <Name>React developer based in Ocala. </Name>
+            <Name>React based in Ocala. </Name>
             <Description>
               I’m a front-end designer & developer based in Florida.
             </Description>
