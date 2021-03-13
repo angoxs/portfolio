@@ -1,16 +1,15 @@
 import { styled } from "../../stitches.config";
 import Fade from "react-reveal/Fade";
 import FooterLink from "./FooterLink";
-import Example from "../Example";
 
 const Frame = styled("div", {
   display: "flex",
   flexDirection: "column",
-  padding: "3rem 3rem",
+  padding: "120px 90px",
   background: "#191d20",
 
   bp1: {
-    padding: "20px",
+    padding: "90px 20px",
   },
 });
 
@@ -20,7 +19,6 @@ const Row = styled("div", {
   justifyContent: "space-between",
   gridGap: 90,
   alignItems: "center",
-  padding: "4rem 2rem",
   width: "100%",
 
   bp1: {
