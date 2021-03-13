@@ -89,6 +89,7 @@ const Example = styled("div", {
   gridGap: 40,
   marginTop: 60,
   background: "#fff",
+  borderRadius: 12,
 
   bp1: {
     gridTemplateColumns: "1fr",
