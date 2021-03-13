@@ -110,7 +110,7 @@ export default function Header() {
             </Description>
           </div>
           <a href="https://flurly.com/p/sleak" target="_">
-            <Button>Purchase $15 &rarr;</Button>
+            <Button>Purchase $15</Button>
           </a>
         </Row>
         <Grid>
