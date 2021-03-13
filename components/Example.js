@@ -1,8 +1,8 @@
 import Lottie from "lottie-react";
-import groovyWalkAnimation from "./globe.json";
+import Animation from "./dots.json";
 
 const Example = () => {
-  return <Lottie animationData={groovyWalkAnimation} />;
+  return <Lottie animationData={Animation} />;
 };
 
 export default Example;
