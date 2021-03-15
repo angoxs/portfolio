@@ -109,8 +109,8 @@ export default function Header() {
               free from the Super Market. See instructions here.{" "}
             </Description>
           </div>
-          <a href="https://flurly.com/p/sleak" target="_">
-            <Button>Purchase $15</Button>
+          <a href="https://github.com/anyelos/portfolio" target="_">
+            <Button>Get it for FREE</Button>
           </a>
         </Row>
         <Grid>
